@@ -1,6 +1,11 @@
-﻿namespace APBD_Kolos_2_Poprawa.Services;
+﻿using APBD_Kolos_2_Poprawa.Data;
+using APBD_Kolos_2_Poprawa.Models;
+using APBD_Kolos_2_Poprawa.DTOs;
+using Microsoft.EntityFrameworkCore;
 
-public class BService : IBService
+namespace APBD_Kolos_2_Poprawa.Services;
+
+public class BService(DatabaseContext context) : IBService
 {
     
 }
