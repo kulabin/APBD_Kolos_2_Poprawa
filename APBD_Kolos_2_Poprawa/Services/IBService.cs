@@ -1,6 +1,6 @@
 ﻿namespace APBD_Kolos_2_Poprawa.Services;
 
-public class IBService
+public interface IBService
 {
     
 }
