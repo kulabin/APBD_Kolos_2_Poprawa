@@ -14,8 +14,7 @@ builder.Services.AddDbContext<DatabaseContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Default"))
 );
 
-builder.Services.AddScoped<IAService, AService>();
-builder.Services.AddScoped<IBService, BService>();
+builder.Services.AddScoped<IPlayerService, PlayerService>();
 
 var app = builder.Build();
 
